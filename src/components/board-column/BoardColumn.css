@@ -1,0 +1,40 @@
+.board-column {
+    padding: 20px;
+    border-right: 1px solid #f1f1f1;
+    width: 33%;
+    position: relative;
+}
+
+.board-column--no-border {
+    border-right: 0;
+}
+
+.board-column__title {
+    color: #555;
+    padding-bottom: 8px;
+    border-bottom: 4px solid;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.board-column__cards {
+    padding-top: 20px;
+}
+
+.board-column__controls {
+    top:25px;
+    right: 15px;
+    position: absolute;
+}
+
+.board-column__button {
+    background: none;
+    border: 0;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.board-column__button-icon {
+    font-size: 18px;
+    color: #666;
+}

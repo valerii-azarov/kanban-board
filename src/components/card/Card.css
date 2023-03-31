@@ -1,0 +1,44 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fcfcfc;
+    padding: 10px;
+    margin-bottom: 15px;
+    user-select: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.card__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card__description {
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.card__assigned-to {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.card__controls {
+    top:10px;
+    right: 10px;
+    position: absolute;
+}
+
+.card__button {
+    background: none;
+    border: 0;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.card__button-icon {
+    font-size: 18px;
+    color: #666;
+}
